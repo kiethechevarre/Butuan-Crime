@@ -1,0 +1,112 @@
+#butuan {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#crime {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#butuan-crime-title {
+  color: #fff;
+  text-decoration: none;
+}
+
+#paths-container {
+  margin: 20px;
+}
+
+#intensity-bar-container {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 95px;
+}
+
+#intensity-bar {
+  color: #000000;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#intensity-high {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  width: 5rem;
+}
+
+#intensity-medium {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  width: 100%;
+}
+
+#intensity-low {
+  display: flex;
+  justify-content: center;
+  height: 5rem;
+  width: 100%;
+}
+
+#piechart-container {
+  display: flex;
+  justify-content: center;
+}
+
+#piechart {
+  height: auto;
+  width: 80%;
+  margin: 0 3rem 3rem 3rem;
+}
+
+.chart-container {
+  height: 15rem;
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+}
+
+.statistics-info {
+  margin: 2px;
+}
+
+.fade-in-text {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.horizontally-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-container {
+  width: 100%;
+}
+
+path {
+  fill: #183D3D;
+  stroke: #ffffff;
+  stroke-width: 2px;
+  transition: fill 0.3s ease-in-out;
+  -webkit-transition: fill 0.5s ease-in-out;
+}
+
+path:hover {
+  fill: #5C8374;
+}
